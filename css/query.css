@@ -1,0 +1,86 @@
+/* width 800px */
+@media (max-width: 50em) {
+  html {
+    /*font-size : 8px*/
+    font-size: 50%;
+  }
+  .anni-wish {
+    padding: 0 auto;
+    margin-left: 8rem;
+    box-sizing: border-box;
+  }
+
+  .cards-box {
+    height: 32rem;
+    width: 62rem;
+    gap: 10px;
+  }
+
+  .cards-box .card .avatar {
+    padding: 6.2px 2px;
+  }
+}
+
+/* width 550px */
+@media (max-width: 34em) {
+  html {
+    /*font-size :4.8px*/
+    font-size: 30%;
+  }
+
+  .cards-box {
+    gap: 8px;
+  }
+
+  .cards-box .card .avatar {
+    padding: 4.8px 1px;
+  }
+
+  .cards-box .card .avatar .text {
+    left: 4rem;
+    margin-left: 5px;
+  }
+
+  .cards-box .card .avatar .text span:first-child {
+    font-size: 1.6rem;
+  }
+
+  .cards-box .card .avatar .text span:last-child {
+    font-size: 1.2rem;
+  }
+
+  /* .anni-wish {
+    padding: 0 auto;
+    margin-left: 8rem;
+    box-sizing: border-box;
+  }
+  .cards-box {
+    height: 20rem;
+    width: 36rem;
+    gap: 8px;
+  }
+
+  .cards-box .card {
+    border-radius: 1.2rem;
+  }
+
+  .cards-box .card .avatar {
+    padding: 6.2px 2px;
+  }
+
+  .cards-box .card .avatar .image {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .cards-box .card .avatar .text {
+    font-size: 1.2rem;
+    left: 2.4rem;
+    margin-left: 2px;
+  }
+
+  .cards-box .card .avatar .text span:last-child {
+    font-size: 0.8rem;
+ 
+  } */
+}
